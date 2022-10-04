@@ -1,0 +1,123 @@
+$main-color: #fac464;
+div {
+  &.carousel img {
+    height: 750px;
+  }
+
+  &.carousel-item div.carousel-caption {
+    &.post {
+      top: 70px;
+      left: 80px;
+    }
+
+    div.card {
+      background-color: rgba(0, 0, 0, 0);
+
+      div {
+        &.card-body {
+          padding-top: 150px;
+        }
+
+        &.scnd {
+          width: 520px;
+        }
+
+        &.card-body {
+          h3 {
+            color: $main-color;
+          }
+
+          p {
+            font-size: 18px;
+          }
+
+          button {
+            border: 10px solid $main-color;
+            border-radius: 0;
+            padding: 12px;
+
+            &.first {
+              border: 1px solid $main-color;
+              background-color: $main-color;
+              color: #000;
+
+              &:hover {
+                background-color: rgba(0, 0, 0, 0);
+                color: $main-color;
+              }
+            }
+
+            &.second {
+              border: 1px solid #fff;
+              color: #fff;
+
+              &:hover {
+                border: 1px solid $main-color;
+                color: #000;
+                background-color: $main-color;
+              }
+            }
+          }
+        }
+      }
+
+      h3 {
+        font-family: cursive;
+      }
+
+      .row div img.card-img {
+        height: 600px;
+        width: auto;
+      }
+    }
+
+    &.postn {
+      top: 160px;
+
+      .container .row {
+        h3 {
+          color: $main-color;
+          font-family: cursive;
+        }
+
+        h2 {
+          font-size: 48px;
+          letter-spacing: 3;
+        }
+
+        p {
+          font-size: 17px;
+        }
+
+        button {
+          &.first {
+            border: 1px solid $main-color;
+            background-color: $main-color;
+            border-radius: 0;
+            color: #000;
+            padding: 12px;
+
+            &:hover {
+              border: 1px solid $main-color;
+              background-color: rgba(0, 0, 0, 0);
+              color: $main-color;
+            }
+          }
+
+          &.second {
+            border: 1px solid #fff;
+            color: #fff;
+            border-radius: 0;
+            padding: 12px;
+
+            &:hover {
+              color: #000;
+              background-color: $main-color;
+              border: 1px solid $main-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}

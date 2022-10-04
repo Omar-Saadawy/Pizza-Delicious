@@ -1,0 +1,144 @@
+div.carousel.slide div.carousel-inner div.carousel-item div.carousel-caption div.container div.row div.text-center h3 {
+  font-family: sans-serif; }
+div.carousel.slide div.carousel-inner div.carousel-item div.carousel-caption div.container div.row div.text-center button.first {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #fff;
+  padding: 0px; }
+div.carousel.slide div.carousel-inner div.carousel-item div.carousel-caption div.container div.row div.text-center button.second {
+  color: #bfbfbf;
+  border: none;
+  background-color: rgba(225, 225, 225, 0); }
+
+section.tabhotmeal .phf {
+  background-image: url(../images/bg_4.jpg);
+  height: 650px; }
+  section.tabhotmeal .phf p.main {
+    color: #bfbfbf;
+    width: 550px; }
+  section.tabhotmeal .phf div.container div.row div.col-md-3 div.fotocard {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-position: center center;
+    background-size: cover;
+    margin-left: 36px; }
+  section.tabhotmeal .phf div.container div.row div.col-md-3 p {
+    color: #808080; }
+    section.tabhotmeal .phf div.container div.row div.col-md-3 p span {
+      color: #fac464; }
+  section.tabhotmeal .phf div.container div.row div.col-md-3 a {
+    text-decoration: none; }
+  section.tabhotmeal .phf div.container div.row div.col-md-3 button {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 0; }
+    section.tabhotmeal .phf div.container div.row div.col-md-3 button:hover {
+      color: #000000;
+      background-color: #fac464;
+      border: 1px solid #fac464; }
+    section.tabhotmeal .phf div.container div.row div.col-md-3 button:focus {
+      box-shadow: none; }
+
+section.blog {
+  width: 100%;
+  height: 1250px;
+  background-image: url(../images/bg_4.jpg); }
+  section.blog div.container-fluid div.row div.col-md-6.ttl {
+    padding-top: 80px; }
+    section.blog div.container-fluid div.row div.col-md-6.ttl p {
+      color: #808080; }
+  section.blog div.container div.row div.col-md-4 {
+    height: 500px; }
+    section.blog div.container div.row div.col-md-4 img {
+      height: 270px;
+      width: 350px;
+      cursor: pointer; }
+    section.blog div.container div.row div.col-md-4 div.lks a {
+      text-decoration: none;
+      color: #808080; }
+      section.blog div.container div.row div.col-md-4 div.lks a:hover {
+        color: #666; }
+    section.blog div.container div.row div.col-md-4 a.h6 {
+      color: #ffffff; }
+      section.blog div.container div.row div.col-md-4 a.h6:hover {
+        color: #fac464;
+        text-decoration: none;
+        transition: all .25s ease; }
+    section.blog div.container div.row div.col-md-4 p {
+      color: #808080; }
+
+section.informazione div.photo {
+  background-image: url(../images/bg_4.jpg);
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px; }
+  section.informazione div.photo div.container {
+    padding-top: 120px; }
+    section.informazione div.photo div.container div.row div.col-md-4 p span.first {
+      cursor: text; }
+    section.informazione div.photo div.container div.row div.col-md-4 p span {
+      color: #fac464;
+      cursor: pointer; }
+    section.informazione div.photo div.container div.row div.col-md-8 form input {
+      width: 31%;
+      padding-left: 0px;
+      height: 50px;
+      border: 0;
+      border-bottom: 1px solid #808080;
+      background-color: rgba(0, 0, 0, 0.07);
+      color: #fff; }
+      section.informazione div.photo div.container div.row div.col-md-8 form input:focus {
+        outline: none;
+        border-bottom: 1px solid #808080; }
+      section.informazione div.photo div.container div.row div.col-md-8 form input ::placeholder {
+        color: #fff;
+        opacity: 1; }
+    section.informazione div.photo div.container div.row div.col-md-8 form textarea {
+      background-color: rgba(0, 0, 0, 0.07);
+      border: 0;
+      border-bottom: 1px solid #808080;
+      color: #fff; }
+      section.informazione div.photo div.container div.row div.col-md-8 form textarea:focus {
+        outline: none;
+        border-bottom: 1px solid #808080; }
+      section.informazione div.photo div.container div.row div.col-md-8 form textarea ::placeholder {
+        color: #fff; }
+    section.informazione div.photo div.container div.row div.col-md-8 form button {
+      background-color: #fac464;
+      color: #000;
+      width: 180px;
+      height: 50px;
+      border-radius: 0;
+      transition: all .2s ease; }
+      section.informazione div.photo div.container div.row div.col-md-8 form button:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid #fac464;
+        color: #fac464; }
+
+section.chef div.phtchf {
+  background-image: url(../images/bg_4.jpg);
+  width: 100%;
+  height: 700px; }
+  section.chef div.phtchf div.col-md-3 div.maain div.card {
+    height: 480px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(250, 196, 100, 0.3);
+    width: 270px; }
+    section.chef div.phtchf div.col-md-3 div.maain div.card div.img {
+      width: 175px;
+      height: 175px;
+      margin: auto;
+      border-radius: 50%; }
+    section.chef div.phtchf div.col-md-3 div.maain div.card div.card-body {
+      padding: 1px; }
+    section.chef div.phtchf div.col-md-3 div.maain div.card h4 {
+      color: #fac464;
+      font-size: 18px;
+      cursor: pointer; }
+    section.chef div.phtchf div.col-md-3 div.maain div.card h6 {
+      color: rgba(255, 255, 255, 0.5); }
+    section.chef div.phtchf div.col-md-3 div.maain div.card p {
+      color: #888888; }
+
+/*# sourceMappingURL=second.css.map */

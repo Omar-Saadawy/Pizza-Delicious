@@ -1,0 +1,32 @@
+body {    
+    padding-top: 70px;
+    height: 1200px;
+}
+
+.navbar-light .navbar-brand {
+  line-height: .7;
+  color: #fff;
+
+  &:hover{
+    color: #fff;
+  }
+}
+
+small {
+  letter-spacing: 2px;
+  color: #fac464;
+}
+
+.navbar-light .navbar-nav {
+  .nav-link {
+    color: #ccc;
+
+    &:hover {
+      color: #fac464;
+    }
+  }
+
+  .active > .nav-link {
+    color: #fac464;
+  }
+}

@@ -1,0 +1,227 @@
+$main-color: #fac464;
+
+section{
+    div.container-fluid{
+        div.row{
+            div.col-md-3{
+                padding: 0;
+                img{
+                    width: 100%;
+                    height: 300px;
+                }
+                div.search{
+                    position: absolute;
+                    left: 47%;
+                    top: 32%;
+                    background-color: $main-color;
+                    color: #ffffff;
+                    width: 50px;
+                    height: 50px;
+                    svg{
+                        position: absolute;
+                        top: 35%;
+                        left: 35%;
+                    }
+                }
+                div.hide{
+                    opacity: 0;
+                    -webkit-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+                    -webkit-transform: rotate(-135deg);    
+                    transform: rotate(-135deg);
+
+                }
+                div.show{
+                    opacity: 1;
+                    -webkit-transition: all .5s ease-in-out;
+                    transition: all .5s ease-in-out;
+                    -webkit-transform: rotate(0deg);    
+                    transform: rotate(0deg);
+                }
+                
+            }
+        }
+    }
+}
+
+
+
+section.rest{
+    div.bg{
+        background: url(../images/bg_2.jpg);
+        background-size: 100%;
+        height: 400px;
+        width: 100%;
+        div.shadow{
+            background-color: rgba(0,0,0,.9);
+            height: 100%;
+            width: 100%;
+            div.container{
+                div.row{
+                    padding-top: 50px;
+                    div.col-md-10{
+                        div.row{
+                            div.col-md-2,div.col-md-3{
+                                div.box{
+                                    img{
+                                        width: 40px;
+                                        height: 40px;
+                                        position: relative;
+                                        top: 25%;
+                                        left: 25%;
+                                    }
+                                    width: 80px;
+                                    height: 80px;
+                                    border: 1px solid $main-color;
+                                    position: relative;
+                                    left: 35%;
+                                    -webkit-transition: all .2s ease-out 0s;
+                                    transition: all .2s ease-out 0s;
+                                    
+                                    img.hide{
+                                        display: none;
+                                    }
+                                }
+                                div.num{
+                                    font-size: 36px;
+                                    color: $main-color;
+                                }
+                                p{
+                                    color: #bfbfbf;
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+section.tab{
+    div.container-fluid{
+        div.row.phf{//photo = foto
+            background-image: url(../images/bg_4.jpg);
+            div.col-md-4.tb{
+                height: 630px;
+                background: url(../images/about.jpg) no-repeat;
+                background-position: center center;
+                background-size: cover;
+            }
+            div.col-md-8{
+                height: 630px;//630 px  1870px
+                div.container{
+                    div.row{
+                        div.pt-5{
+                            button{
+                                border: 1px solid $main-color;
+                                color: $main-color;
+                                border-radius: 0;
+                                font-size: 18px;
+                                font-weight: 400;
+                                &:focus{
+                                    box-shadow: none;
+                                }
+                                &:hover{
+                                    color: #000;
+                                    background-color: $main-color;
+                                }
+                            }
+                            button.active{
+                                color: #000;
+                                background-color: $main-color;
+                            }
+                        }
+                        
+                        div.col-md-4{
+                            div.fotocard{
+                                height: 200px;
+                                width: 200px;
+                                border-radius: 50%;
+                                background-position: center center;
+                                background-size: cover;
+                                margin-left: 36px;
+                            }
+                            p{
+                                color: #808080;
+                                span{
+                                    color: $main-color;
+                                }
+                            }
+                            a{
+                                text-decoration: none;
+                            }
+                            button{
+                                color: #ffffff;
+                                border: 1px solid #ffffff;
+                                border-radius: 0;
+                                &:hover{
+                                    color: #000000;
+                                    background-color: $main-color;
+                                    border: 1px solid $main-color;
+                                }
+                                &:focus{
+                                    box-shadow: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+section.blog{
+    width: 100%;
+    height: 750px;
+    background-image: url(../images/bg_4.jpg);
+    div.container-fluid{
+        div.row{
+            div.col-md-6.ttl{
+                padding-top: 80px;
+                p{
+                    color: #808080; //#666
+                }
+            }
+        }
+    }
+    div.container{
+        div.row{
+            div.col-md-4{
+                height: 500px;
+                img{
+                    height: 270px;
+                    width: 350px;
+                    cursor: pointer;
+                }
+                div.lks{
+                    a{
+                        text-decoration: none;
+                        color: #808080;
+                        &:hover{
+                            color: #666;
+                        }
+                    }
+                }
+                a.h6{
+                    color: #ffffff;
+                    &:hover{
+                        color: $main-color;
+                        text-decoration: none;
+                        transition: all .25s ease;
+                    }
+                }
+                p{
+                    color: #808080;
+                }
+            }
+        }
+    }
+}
+

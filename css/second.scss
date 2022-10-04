@@ -1,0 +1,266 @@
+$main-color: #fac464;
+div.carousel.slide{
+    div.carousel-inner{
+        div.carousel-item{
+            div.carousel-caption{
+                div.container{
+                    div.row{
+                        div.text-center{
+                            h3{
+                                font-family: sans-serif
+                            }
+                            button {
+                              &.first {
+                                 border: none;
+                                 background-color: rgba(0, 0, 0, .1);
+                                 color: #fff;
+                                 padding: 0px
+                                }
+                              &.second{
+                                    color: #bfbfbf;
+                                    border: none;
+                                    background-color: rgba(225,225,225,0)
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+section.tabhotmeal{
+    .phf{
+        background-image: url(../images/bg_4.jpg);
+        height: 650px;
+        p.main{
+            color: #bfbfbf;
+            width: 550px
+        }
+        div.container{
+            div.row{
+                div.col-md-3{
+                    div.fotocard{
+                        height: 200px;
+                        width: 200px;
+                        border-radius: 50%;
+                        background-position: center center;
+                        background-size: cover;
+                        margin-left: 36px;
+
+                    }
+                    p{
+                        color: #808080;
+                        span{
+                            color: $main-color;
+                        }
+                    }
+                    a{
+                        text-decoration: none;
+                    }
+                    button{
+                        color: #ffffff;
+                        border: 1px solid #ffffff;
+                        border-radius: 0;
+                        &:hover{
+                            color: #000000;
+                            background-color: $main-color;
+                            border: 1px solid $main-color;
+                        }
+                        &:focus{
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+section.blog{
+    width: 100%;
+    height: 1250px;
+    background-image: url(../images/bg_4.jpg);
+    div.container-fluid{
+        div.row{
+            div.col-md-6.ttl{
+                padding-top: 80px;
+                p{
+                    color: #808080; //#666
+                }
+            }
+        }
+    }
+    div.container{
+        div.row{
+            div.col-md-4{
+                height: 500px;
+                img{
+                    height: 270px;
+                    width: 350px;
+                    cursor: pointer;
+                }
+                div.lks{
+                    a{
+                        text-decoration: none;
+                        color: #808080;
+                        &:hover{
+                            color: #666;
+                        }
+                    }
+                }
+                a.h6{
+                    color: #ffffff;
+                    &:hover{
+                        color: $main-color;
+                        text-decoration: none;
+                        transition: all .25s ease;
+                    }
+                }
+                p{
+                    color: #808080;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+section.informazione{
+    div.photo{
+        background-image: url(../images/bg_4.jpg);
+        background-attachment: fixed;
+        width: 100%;
+        height: 600px;
+        div.container{
+            padding-top: 120px;
+            div.row{
+                div.col-md-4{
+                    p{
+                        span.first{
+                            cursor: text;
+                        }
+                        span{
+                            color: $main-color;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                div.col-md-8{
+                    form{
+
+                        input{
+                            width: 31%;
+                            padding-left: 0px;
+                            height: 50px;
+                            border: 0;
+                            border-bottom: 1px solid #808080;
+                            background-color: rgba($color: #000000, $alpha: .07);
+                            color: #fff;
+                            &:focus{
+                                outline: none;
+                                border-bottom: 1px solid #808080;;
+                            }
+                            ::placeholder{
+                                color: #fff;
+                                opacity:1 ;
+                            }
+                        }
+    
+                        textarea{
+                            background-color: rgba($color: #000000, $alpha: .07);
+                            border: 0;
+                            border-bottom: 1px solid #808080;
+                            color: #fff;
+                            &:focus{
+                                outline: none;
+                                border-bottom: 1px solid #808080;;
+                            }
+                            ::placeholder{
+                                color: #fff;
+                            }
+                        }
+                        button{
+                            background-color: $main-color;
+                            color: #000;
+                            width: 180px;
+                            height: 50px;
+                            border-radius: 0;
+                            transition: all .2s ease;
+                            &:hover{
+                                background-color: rgba($color: #000000, $alpha: .1);
+                                border: 1px solid $main-color;
+                                color: $main-color;
+                            }
+                        }
+    
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+section.chef{
+    div.phtchf{
+        background-image: url(../images/bg_4.jpg);
+        width: 100%;
+        height: 700px;
+        div.col-md-3{
+            div.maain{
+                div.card{
+                    height: 480px;
+                    background-color: rgba($color: #000000, $alpha: 0.0);
+                    border: 1px solid rgba($color: $main-color, $alpha: .30);
+                    width: 270px;
+                    div.img{
+                        width: 175px;
+                        height: 175px;
+                        margin: auto;
+                        border-radius: 50%;
+                    }
+                    div.card-body{
+                        padding: 1px;
+                    }
+                    h4{
+                        color: $main-color;
+                        font-size: 18px;
+                        cursor: pointer;
+                    }
+                    h6{
+                        color: rgba($color: #fff, $alpha: .5);
+                    }
+                    p{
+                        color: #888888;
+                    }
+                }
+            }
+            
+
+
+
+            // div.cool{
+            //     border: 1px solid rgba($color: #fac464, $alpha: .30);
+            //     height: 550px;
+            //     border-radius: 10px;
+            //     transition: .15s all ease;
+            //     img{
+            //         width: 155px;
+            //     }
+            //     &:hover{
+            //         border: 1px solid rgba($color: #fac464, $alpha: 1);
+            //     }
+            // }
+            
+        }
+    }
+}
